@@ -1,4 +1,4 @@
-# ShowManager - Movie/Show Manager using omdb apis 
+# MovieList - Movie/Show Manager using omdb apis 
 
 Developing an Android app to show a list of movies and tv shows to the user. The movie/show card contain the following details.
 Name, Year, image.
@@ -6,7 +6,7 @@ On Click of the card user redirected to details page where app  show the followi
 Name, Year, Genre, Director, image, IMDB rating, Actors.
 
 API Detais can be found at: http://www.omdbapi.com/
-Generate your own key from OMDB and mention it in https://github.com/anuj71307/ShowManager/edit/master/app/src/main/java/com/android/showmanager/utils/Constants.java file, for variable API_KEY
+Generate your own key from OMDB and mention it in https://github.com/jaydave812/MovieListAppOMDB/blob/master/app/src/main/java/com/android/showmanager/utils/Constants.java file, for variable API_KEY
  
 There is a search option in action bar for the user to search a movie/show.
 Use the pagination feature of the api to get next results.

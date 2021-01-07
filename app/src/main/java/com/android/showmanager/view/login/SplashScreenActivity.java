@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.android.showmanager.R;
 import com.android.showmanager.utils.MySharedPrefs;
 import com.android.showmanager.view.list.ShowListActivity;
-
+//Created by jay on 7-1-2021
 public class SplashScreenActivity extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGTH = 1000;
     SharedPreferences sharedPreferences;

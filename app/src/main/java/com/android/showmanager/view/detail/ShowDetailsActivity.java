@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+//Created by jay on 6-1-2021
 public class ShowDetailsActivity extends AppCompatActivity
 {
     private static final String TAG = ShowDetailsActivity.class.getSimpleName();
