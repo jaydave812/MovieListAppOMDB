@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="search">Search</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="dummyName">Movie Name</string>
+    <string name="bookmark">Bookmarks</string>
+    <string name="search_show">Enter show name to search</string>
+    <string name="dialog_details">Do you want to delete this bookmark?</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="logout">Logout</string>
+</resources>

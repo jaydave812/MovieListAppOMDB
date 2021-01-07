@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:id="@+id/relativeLayout"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin_half"
+        app:cardBackgroundColor="@color/placeholder_grey"
+        app:cardCornerRadius="3dp"
+        app:cardPreventCornerOverlap="false">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/poster_thumb_width"
+            android:layout_height="@dimen/poster_thumb_height"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/activity_margin_half"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/cardView"
+        android:paddingBottom="@dimen/activity_margin"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingTop="@dimen/activity_margin_half">
+
+
+        <TextView
+            android:id="@+id/showName"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_small"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="Movie Title" />
+
+        <TextView
+            android:id="@+id/showYear"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_small"
+            android:alpha="0.38"
+            android:maxLines="1"
+            android:textStyle="bold"
+            tools:text="2019 | EN"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bookmarkButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="@dimen/activity_margin_half"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/cardView"
+        android:background="@drawable/outline_bookmarks_black_48"/>
+</RelativeLayout>
